@@ -8,6 +8,7 @@
 a {
     text-decoration: none;
     display: inline-block;
+    color: white;
 }
 
 .topbackground {
@@ -67,6 +68,10 @@ nav li {
     float: left;
 }
 
+.floatright {
+    float: right;
+}
+
 .wd80 {
     width: 70%;
     margin: 0 auto;
@@ -109,7 +114,19 @@ h1 {
     padding-top: 38px;
 }
 
-.midsection {
+.greysection {
     background-color: lightgray;
-    padding: 50px;
+    padding: 1px;
+}
+
+.big {
+    text-align: center;
+}
+
+.star {
+    margin: 0 auto;
+    width: 35%;
+    background-image: url(../img/stars.svg);
+    background-position: initial;
+    background-size: contain;
 }
