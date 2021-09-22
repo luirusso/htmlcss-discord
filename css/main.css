@@ -37,7 +37,7 @@ nav li {
 }
 
 .login {
-    margin-left: 280px;
+    margin-left: 275px;
 }
 
 .herobanner {
@@ -54,6 +54,10 @@ nav li {
     clear: both;
 }
 
+.whitetext {
+    color: white;
+}
+
 .float {
     float: left;
 }
@@ -62,4 +66,20 @@ nav li {
     width: 70%;
     margin: 0 auto;
 
+}
+
+.centertext {
+    text-align: center;
+}
+
+/* MAIN CONTENT */
+.herosection {
+    width: 50%;
+    width: 50%;
+    padding-top: 125px;
+    font-size: 31px;
+}
+
+h1 {
+    margin-bottom: 50px;
 }
