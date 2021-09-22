@@ -5,9 +5,9 @@
     font-family: sans-serif;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
+a {
+    text-decoration: none;
+    display: inline-block;
 }
 
 .topbackground {
@@ -42,12 +42,17 @@ nav li {
 
 .herobanner {
     background-image: url(../img/jumbo.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    height: 694px;
+    height: 600px;
 }
 
 /* UTILITIES */
+.container {
+    width: 70%;
+    margin: 100px auto;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -68,10 +73,22 @@ nav li {
 
 }
 
+.mtop25 {
+    margin-top: 25px;
+}
+
 .centertext {
     text-align: center;
 }
 
+.btn {
+    height: 55px;
+    width: 276px;
+    background-color: white;
+    border-radius: 125px;
+    color: black;
+    line-height: 52px;
+}
 /* MAIN CONTENT */
 .herosection {
     width: 50%;
