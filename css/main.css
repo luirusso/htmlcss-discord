@@ -80,6 +80,7 @@ nav li {
 
 .sectionmargin {
     margin: 100px auto;
+    margin-bottom: 0;
 }
 
 .mtop25 {
@@ -129,4 +130,9 @@ h1 {
     background-image: url(../img/stars.svg);
     background-position: initial;
     background-size: contain;
+}
+
+.footer {
+    background-color: #23272a;
+    height: 500px;
 }
