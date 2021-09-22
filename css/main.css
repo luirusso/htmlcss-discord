@@ -8,8 +8,10 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: #3161e0;
-    height: 150px;
+}
+
+.topbackground {
+    background-color: #255ee9;
 }
 
 header {
@@ -36,6 +38,13 @@ nav li {
 
 .login {
     margin-left: 280px;
+}
+
+.herobanner {
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    height: 694px;
 }
 
 /* UTILITIES */
