@@ -50,6 +50,7 @@ nav li {
 /* UTILITIES */
 .container {
     width: 70%;
+    margin: 200px auto;
 }
 
 .clearfix::after {
@@ -106,4 +107,9 @@ h1 {
 
 .sectionmargin h2 {
     padding-top: 38px;
+}
+
+.midsection {
+    background-color: lightgray;
+    padding: 50px;
 }
