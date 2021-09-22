@@ -12,4 +12,32 @@
     height: 150px;
 }
 
+header img,
+header ul li {
+    display: inline-block;
+}
+
+.col1 {
+    width: 20%;
+}
+
+.col2 {
+    width: 80%;
+}
+
 /* UTILITIES */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.wd80 {
+    width: 70%;
+    margin: 0 auto;
+
+}
