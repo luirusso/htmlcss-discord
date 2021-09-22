@@ -50,7 +50,6 @@ nav li {
 /* UTILITIES */
 .container {
     width: 70%;
-    margin: 100px auto;
 }
 
 .clearfix::after {
@@ -71,6 +70,10 @@ nav li {
     width: 70%;
     margin: 0 auto;
 
+}
+
+.sectionmargin {
+    margin: 100px auto;
 }
 
 .mtop25 {
@@ -99,4 +102,8 @@ nav li {
 
 h1 {
     margin-bottom: 50px;
+}
+
+.sectionmargin h2 {
+    padding-top: 38px;
 }
